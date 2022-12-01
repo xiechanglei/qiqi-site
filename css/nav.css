@@ -1,0 +1,38 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    background-color: #ffffff;
+}
+
+/* 导航栏样式 */
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-list .nav-link{
+    display: inline-block;
+    padding: 0 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: all .2s;
+}
+
+.nav-list .nav-link:hover{
+    color:#ffffff;
+    background: #000000;
+}
+
+
+.nav-list .nav-link.active{
+    color: #ff6b6b;
+}
