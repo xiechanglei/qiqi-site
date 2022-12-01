@@ -1,89 +1,268 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>戏曲介绍</title>
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/index.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>京剧-首页</title>
+    <style type="text/css">
+body {
+  height: 100vh;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+input[type="text"],input[type="password"] {
+  font-family: inherit;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: 1px solid #000000;
+  font-size: 14px;
+  color: #cc3333;
+}
+
+
+.site-header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+
+.site-header + .site-container {
+  padding-top: 110px;
+}
+
+.site-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-fragment {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+.site-footer {
+  margin-top: 20px;
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 0;
+  text-align: center;
+}
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.site-header .logo img{
+    width: 200px;
+    height: 100px;
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-list .nav-link{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 15px;
+	color: inherit;
+	text-decoration: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	transition: all .2s;
+	padding-top: 0px;
+	padding-right: 28px;
+	padding-bottom: 0px;
+	padding-left: 28px;
+}
+
+.nav-list .nav-link:hover{
+    color:#ffffff;
+    background: #000000;
+}
+
+
+.nav-list .nav-link.active{
+    color: #ff6b6b;
+}
+.index-banner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.index-introduce {
+  margin-top: 20px;
+}
+
+.index-introduce .title {
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.index-introduce .images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.index-introduce .images img{
+  height: 380px;
+}
+
+
+.index-introduce .content {
+	margin: 0 auto;
+	font-size: 17px;
+	line-height: 28px;
+	margin-top: 30px;
+}
+
+.index-introduce .content p {
+  margin-bottom: 10px;
+  text-indent: 2em;
+}
+
+.pic-item-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.pic-item-list .pic-item {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pic-item-list .pic-item .img-wraper {
+  height: 150px;
+  width: 260px;
+  background-size:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 200ms ease-in-out;
+  border-radius: 3px;
+  
+}
+
+.pic-item-list .pic-item .img-wraper:hover{
+  background-size:110%;
+}
+
+.pic-item-list .pic-item span{
+  margin-top: 10px;
+}
+
+    </style>
 </head>
 
 <body>
-    <!-- 网页头部 -->
-    <header class="site-header">
-        <!-- logo -->
-        <section class="logo">logo</section>
-        <!-- 导航栏部分 -->
-        <section class="nav-list">
+    
+    <div class="site-header">
+        
+        <div class="nav-list">
             <a class="nav-link active" href="./index.html">首页</a>
-            <a class="nav-link" href="./introduce.html">角色介绍</a>
-            <a class="nav-link" href="./login.html">登录</a>
-            <a class="nav-link" href="./pictures.html">图片欣赏</a>
-        </section>
-    </header>
+            <a class="nav-link" href="2.html">角色介绍</a>
+            <a class="nav-link" href="3.html">图片欣赏</a>
+            <a class="nav-link" href="4.html">登录</a>
+        </div>
+    </div>
 
-    <!-- 网页主体 -->
-    <div class="site-container">
+    
+    <div >
 
-        <!-- 顶部大图 -->
+        
         <div class="index-banner">
-            <img src="./images/banner.jpg" alt="">
+            <img src="./images/index-banner.jpg" alt="">
         </div>
 
 
         <div class="site-fragment">
-            <!-- 戏曲介绍 -->
+            
             <div class="index-introduce">
-                <div class="title">戏曲介绍</div>
-                <div class="images"></div>
+                <div class="title">京剧 （戏曲变种）</div>
+                <div class="images">
+                    <img src="./images//index-introduce-1.png" alt="">
+                    <img src="./images//index-introduce-2.png" alt="">
+                </div>
                 <div class="content">
-                    <p>这是一段介绍这是一段介绍这是一段介绍这是一段介绍这是一段介绍这是一段介绍这是一段介绍这是一段介绍</p>
+                    <p>京剧是在北京形成的戏曲剧种之一，至今有150年历史，它是在徽戏和汉戏的基础上，吸收了昆曲、秦腔等戏曲的优点和特点逐渐演变而形成的。</p>
+                    <p>京剧也称“皮黄”，是因为它由“西皮”和“二黄”两种基本腔调组成。京剧是中国的国粹，演员们把它演绎得活灵活现、气势宏美，使它成为了近代中国戏曲的代表。京剧是综合性表演艺术，即唱念做打为一体，通过程式的表演手段叙述故事，刻画人物，表达“喜、怒、哀乐、惊、恐、悲”的思想感情。京剧的角色可分为生旦净丑四大行当。人物有忠奸之分，美丑之分，善恶之分，各个形象鲜明，栩栩如生。京剧的题材主要以历史政治和军事斗争为主，故事大多取自小说、话本。既有整本的大戏，也有折子戏和台戏。全国各地有不少戏迷，他们喜闻乐见，沉迷于那一个个动人心弦的故事。</p>
+                    <p>京剧是一门综合艺术，它把观众带入了艺术殿堂。</p>
                 </div>
             </div>
 
-            <!-- 图片展示 -->
+           
             <div class="pic-item-list">
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-1.jpg');"></div>
+                    <span>京剧</span>
                 </div>
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-2.jpg');"></div>
+                    <span>京剧</span>
                 </div>
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-3.jpg');"></div>
+                    <span>京剧</span>
                 </div>
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-4.jpg');"></div>
+                    <span>京剧</span>
                 </div>
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-5.jpg');"></div>
+                    <span>京剧</span>
                 </div>
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-6.jpg');"></div>
+                    <span>京剧</span>
                 </div>
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-7.jpg');"></div>
+                    <span>京剧</span>
                 </div>
                 <div class="pic-item">
-                    <img src="" alt="">
-                    <span>desc</span>
+                    <div class="img-wraper" style="background-image: url('./images/index-show-8.jpg');"></div>
+                    <span>京剧</span>
                 </div>
             </div>
         </div>
 
     </div>
 
-    <div class="site-footer">戏曲文化 Create by 七七</div>
 </body>
 
 </html>
