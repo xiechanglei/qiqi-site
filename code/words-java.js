@@ -9,7 +9,7 @@ export default [
     'catch',
     'char',
     'class',
-    'const',
+    'var',
     'continue',
     'default',
     'do',
@@ -44,15 +44,14 @@ export default [
     'synchronized',
     'this',
     'throw',
-    'throws']
-
-// export default [
-//     'apple',
-//     'banana',
-//     'orange',
-//     'grape',
-//     'mango',
-//     'pineapple',
-//     'watermelon',
-//     'strawberry'
-// ]
+    'throws',
+    'String',
+    'transient',
+    'try',
+    'void',
+    'volatile',
+    'while',
+    'true',
+    'false',
+    'null',
+]
