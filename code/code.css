@@ -1,0 +1,48 @@
+/* @import "https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap"; */
+@import "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;700&display=swap";
+/* @import "https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Itim:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Coming+Soon:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lalezar:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@300;400;700&display=swap"; */
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+#container {
+  height: 100vh;
+  background: #323437;
+  color: #d1d0c5;
+  font-family: Lexend Deca;
+}
+
+#container {
+  font-size: 100px;
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  color: rgb(64, 123, 25);;
+}
+.incorrect {
+  color: rgb(126, 42, 51);
+}
