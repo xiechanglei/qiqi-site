@@ -1,2 +1,21 @@
 //javascript 单词
-export default ["this","let","const","async","await","NaN","undefined","typeof","prompt","else if","||","&&","i++","${i}","${j}","label","switch","case","strict","assert","new Object","delete","Object.assign","Symbol","toUpperCase","toLowerCase","toString","Math.floor","Math.ceil","Math.round","Math.trunc","Math.max","Math.pow","Math.random","indexOf","isNaN","Object.is","parseInt","parseFloat","includes","startsWith","endsWith","slice","substring","trim","repeat","function","if","var","return","the","to","value","else","for","true","length","false","null","of","in","element","event","and","console","object","jQuery","node","while","do","break","continue","attributes","childNodes","firstChild","nodeName","nodeType","onclick","ondblclick","onmousedown","onmouseenter","onmouseup","onkeyup","onkeydown","onkeypress","oninput","oninvalid","onreset","onselect","ondrag","try","catch","throw","finally"]
+export default ["this","let","const","async","await","NaN","undefined","typeof",
+"if","else","for","while","do","switch","case","break","continue","default","return",
+"try","catch","finally","throw","new","delete","in","instanceof","extends","class",
+"function","import","export","from","as","debugger","with","var","void","super",
+"true","false","null","document","window","console","alert","prompt","confirm",
+"setTimeout","setInterval","clearTimeout","clearInterval","location","history",
+"navigator","screen","localStorage","sessionStorage","fetch","XMLHttpRequest",
+"JSON","Math","Date","Array","Object","String","Number","Boolean","RegExp","Function",
+"Symbol","Map","Set","WeakMap","WeakSet","Proxy","Reflect","Promise","Intl","encodeURI",
+"encodeURIComponent","decodeURI","decodeURIComponent","escape","unescape","eval",
+"arguments","callee","caller","constructor","prototype","pop","push","shift","unshift",
+"slice","splice","concat","join","reverse","sort","indexOf","lastIndexOf","forEach",
+"map","filter","reduce","reduceRight","every","some","find","findIndex","includes",
+"flat","flatMap","copyWithin","fill","entries","keys","values","from","of","isArray",
+"toSource","toString","toLocaleString","valueOf","hasOwnProperty","isPrototypeOf",
+"propertyIsEnumerable","axios","vue","react","angular","jquery","lodash","underscore",
+"bootstrap","element-ui","antd","d3","echarts","highcharts","three","pixi","phaser",
+"abstract","interface","implements","enum","package","private","protected","public",
+"static","final"
+]
