@@ -1,6 +1,6 @@
 import words from './words-javascript.js';
 
-const letters = 'abcdefghijklmnopqrstuvwxyz-${}._'.split('');
+const letters = 'abcdefghijklmnopqrstuvwxyz-${}._1234567890'.split('');
 const container = document.querySelector('#container .current');
 const nextContainer = document.querySelector('#container .next');
 const previousContainer = document.querySelector('#container .previous');
