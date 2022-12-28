@@ -23,8 +23,7 @@ export const addTable = (layer, tableData) => {
     let complexText = new Text({
         ...locationConfig,
         text: tableData.tableName,
-        fontSize: 14,
-        
+        fontSize: 16,
         fill: '#fff',
         padding: 20,
         align: 'center',
